@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #ebeffd;
+}
+
+.logo {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(121, 121, 233);
+    height: 30%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.heading h1 {
+    margin-top: 10vw;
+    margin-left: 10vw;
+    color: white;
+}
+
+.heading p {
+    margin-top: 2vw;
+    margin-left: 10vw;
+    color: white;
+}
+
+.heading button {
+    border-radius: 17em;
+    background-color: white;
+    margin-top: 2vw;
+    margin-left: 10vw;
+    color: blue;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.heading img {
+    margin: 5em;
+    margin-right: 10em;
+    height: 20rem;
+    width: 15rem;
+}
+
+.featured {
+    padding-top: 1em;
+    text-align: center;
+    background-color: #ebeffd;
+}
+
+.social-icons {
+    width: 30px;
+    height: 30px;
+}
+.featured_sub{
+    background-color: #ebeffd;
+    margin-top: -10px;
+}
+
+.featured_sub .first {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.featured_sub .second {
+    display: flex;
+    justify-content: center;
+}
+
+.featured_sub h3 {
+    color: blue;
+    margin: 1em;
+    font-size: large;
+}
+
+.about {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.about_head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.about_IMG {
+    display: flex;
+    justify-content: center;
+}
+
+.abt {
+    height: 15em;
+    border-width: 2em;
+    border-color: aqua;
+}
+
+.para {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.01em;
+}
+
+.social-icons_div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.services {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.services_head {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.services_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.services_btn button {
+    border-radius: 17em;
+    background-color: white;
+    margin: 2em;
+    color: black;
+    padding: 1em;
+    font-weight: bold;
+}
+
+button :hover {
+    background-color: blue;
+    color: white;
+}
+
+.serv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serv_IMG {
+    margin: 5em;
+    margin-right: 10em;
+    height: 20rem;
+    width: 15rem;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.serv_head {
+    margin: 5em;
+}
+
+button {
+    border-radius: 17em;
+    background-color: blue;
+    margin: 2em;
+    color: black;
+    padding: 1em;
+    font-weight: bold;
+}
+
+li {
+    padding-top: 0.5em;
+    font-weight: 500;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.card-body{
+    border-radius: 20px 20px 20px 20px;
+    border-radius: 15px;
+}
+
+.middle_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.services {
+    padding-top: 1em;
+}
+
+.testimonialsIMG {
+    height: 3em;
+    border-radius: 100%;
+    width: 3em;
+    margin-left: 40%;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonials p {
+    text-align: center;
+}
+
+.al {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vw;
+    border-radius: 50px;
+}
+
+.al>.mediaIMG {
+    width: 65vw;
+    border-radius: 50px;
+}
+
+.last {
+    background-color: blue;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.ll {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.one {
+    height: 45vw;
+
+}
+
+.two {
+    height: 45vw;
+}
+
+.cnt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: blue;
+}
+
+.footer h2 {
+    text-align: center;
+    color: white;
+}
+
+.store img {
+    height: 40px;
+}
+
+.store {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.last>.services {
+    color: white;
+}
+
+.last>.services_head {
+    color: white;
+}
+
+.lbtn {
+
+    display: flex;
+    justify-content: center;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copy p {
+    color: white;
+}
